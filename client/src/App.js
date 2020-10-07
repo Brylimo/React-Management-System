@@ -42,6 +42,7 @@ class App extends Component{
     const body = await response.json();
     return body;
   }
+// json() returns a promise that resolves with the result of parsing the body text as JSON.
 
   progress = () => {
     const { completed } = this.state;
